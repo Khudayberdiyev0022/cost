@@ -1,0 +1,70 @@
+.main{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 120px;
+    z-index: 80;
+    padding: 20px 0px;
+    background-color: rgb(38, 42, 49);
+}
+.container .brend{
+    color: #ffcd00;
+    padding:10px 0px;
+    animation: animatedBredn 1s ease infinite forwards;
+}
+@keyframes animatedBredn {
+    0%,100%{
+        transform: scale(1);
+        opacity: 1;
+    }50%{
+        transform: scale(1.1);
+        opacity: .5;
+    }
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container h1{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    width: 80%;
+}
+.one,.two, .three{
+    width: 100%;
+}
+.oneClick, .twoClick, .threeClick{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.oneContainer, .twoContainer, .threeContainer{
+    width: 90%;
+    margin: auto;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.container svg{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+}
+@media screen and (max-width: 770px){
+    .main{
+        display: none;
+    }
+}
