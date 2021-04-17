@@ -24,7 +24,7 @@ function Main1() {
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/електроэнергия'>Электроэнергия
+                                to='/электроэнергия'>Электроэнергия
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
@@ -115,6 +115,10 @@ function Main1() {
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
                                 to='/моляр'>Моляр
+                            </NavLink>
+                            <NavLink 
+                                activeStyle={{color: '#ffcd00'}} 
+                                to='/потолочник'>Потолочник
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 

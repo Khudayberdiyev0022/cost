@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Home3.module.css'
-import img from '../../../assets/images/who-we.jpg'
+// import img from '../../../assets/images/who-we.jpg'
 
 function Home3() {
     return (
@@ -9,11 +9,20 @@ function Home3() {
                 <div className = {style.first}>
                     <h1>БИЗ КИММИЗ?</h1>
                     <h3>БИЗ ҲАҚИМИЗДА</h3>
-                    <p>Irure Lorem eu eiusmod amet ullamco reprehenderit laboris sint duis mollit deserunt. Ullamco nisi deserunt nisi minim fugiat ut consequat laborum nulla deserunt adipisicing mollit esse. Elit dolore tempor cupidatat cupidatat incididunt adipisicing nostrud est laboris magna. Elit dolor veniam ex deserunt veniam reprehenderit officia duis eu pariatur labore officia laborum. Cillum mollit officia eiusmod cillum labore minim tempor dolor et in et consectetur ipsum reprehenderit. Ex labore sunt ad velit ad consectetur do laboris deserunt. Commodo minim labore cupidatat aliqua ipsum ipsum Lorem.</p>
-
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+                    <p>“CELEBRO PRO” Масъулияти чекланган жамияти 2021 йилда фаолият юритишни бошлаб, мамлакат худудида ахоли учун “хусусий” хизматлар бозоридан фойдаланиш учун ягона турдаги электрон платформа – “Хизматлар дунёси” ни ташкил этган. </p>
+                    <p>Биринчи босқичда “Хизматлар дунёси”да ахоли учун зарур бўлган хусусий хизматларни аниқлаш, жалб қилиш ва алоқа боғлаш имкониятлари ташкллаштирилган бўлса, Компания томонидан кейинги босқичлар устида ишлар олиб борилмоқда. Хусусан, истемолчилар учун Шахсий кабинет, буюртмалар тўплами, хизматлар кўламини кенгайтириш режалари устидан ишланмоқда. </p>
+                    <p>Булардан ташқари, алохида лойиха сифатида хар бир истеъмолчи билан индивидуал равишда истеъмолчи “Талаблари ва эхтиёжлари” ни бошқариш режаси мавжуд бўлиб, аниқ истеъмолчига алохида гурух мутахассислари хизмат кўрсатади. </p>
+                    <p>Қисқа муддат ичида 24 соат давомида хизмат кўрсатиш йўлга қўйилади.</p>
+                    <p>Бугунги кунда “Хизматлар дунёси” дан фойдаланишнинг асосий афзаллиги, ушбу платформа орқали масофадан туриб, зарур хизматлар турини буюртма қилиш имконияти мавжуд. Бунда, буюртма жойлаштирилгандан сўнг, ушбу буюртмани ижро қилиниши холатини кузатиб бориш мумкин. </p>
+                    <p>
+                    Шунингдек, хозирги кунда “хусусий” хизматлардан фойдаланиш аксарият холларда нақд пул тўлови эвазига амалга оширилади. Нақдсиз даромад (масалан, ойлик маоши) даврида, нақд пул сарфлаш хар доим хам “қўл остида” бўлмаслиги маълум ноқулайликларни келтириб чиқарса, биз бу ноқулайликка бархам берамиз. Тўловлар, нақд пул ёки пластик карталар орқали амалга оширилиши мумкин. 
+                    </p>
+                    <p>
+                    Яна бир афзаллик сифатида, “бозор” га чиқиб, хизматчиларни қидириш можаросидан халос бўлган холда, уйда бўлган холда зарур хизматларни буюртма беришингиз мумкин. 
+                    </p>
+                    <p>Умумий холда айтганда – <strong>БИЗ БИЛАН ҚУЛАЙ!!!</strong> </p>
                 </div>
-                <div className = {style.second} style={{backgroundImage: `url(${img})`}}></div>
+                {/* <div className = {style.second} style={{backgroundImage: `url(${img})`}}></div> */}
             </div>
         </div>
     )

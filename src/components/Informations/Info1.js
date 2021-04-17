@@ -11,7 +11,7 @@ function Info1({title, firstParagraph, secondParagraph,language}) {
                 <p>{secondParagraph}</p>
                 <div className={style.button}>
                     <div className={style.background}></div>
-                    <Link to={`/booked/${language}`}>{language === 'UZB' ?  'Бўюртма':'Заказать'}</Link>
+                    <Link to={`/booked/${language}`}>{language === 'UZB' ?  'Буюртма':'Заказать'}</Link>
                 </div>
             </div>
         </div>

@@ -24,11 +24,11 @@ function Main1() {
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/електроэнергия'>электро энергия
+                                to='/электроэнергия'>Электроэнергия
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/связь'>Алоқа
+                                to='/алока'>Алоқа
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
@@ -40,19 +40,19 @@ function Main1() {
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/уборка'>Тозалаш
+                                to='/тозалаш'>Тозалаш
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/грузчик'>Юк ташиш
+                                to='/юкташиш'>Юк ташиш
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/ремонт'>Мебель таъмирлаш
+                                to='/мебел'>Мебель таъмирлаш
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/садоводство'>Боғбончилик
+                                to='/богбончилик'>Боғбончилик
                             </NavLink>
                         </div>
                     }
@@ -67,11 +67,11 @@ function Main1() {
                         <div className={style.twoContainer}>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/малогабаритные'>Кичик ҳажмдаги юк
+                                to='/кичикгабарит'>Кичик ҳажмдаги юк
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/крупногабаритные'>Катта ҳажмдаги юк
+                                to='/каттагабарит'>Катта ҳажмдаги юк
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
@@ -98,27 +98,32 @@ function Main1() {
                         <div className={style.threeContainer}>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/землерой'>Диггер
+                                to='/еркавлаш'>Ер кавлаш
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/укладка'>Ғишт қуйиш
+                                to='/гишттериш'>Ғишт қуйиш
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/косметика'>Косметика
+                                to='/енгилтамирлаш'>Косметика
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/штукатурка'>Гипсчи
+                                to='/сувок'>Сувоқчи
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/моляр'>Моляр
+                                to='/буекчи'>Бўёқчи
                             </NavLink>
                             <NavLink 
                                 activeStyle={{color: '#ffcd00'}} 
-                                to='/крыша'>Том ёпиш
+                                to='/шифт'>Шифт таъмирлаш
+                            </NavLink>
+                          
+                            <NavLink 
+                                activeStyle={{color: '#ffcd00'}} 
+                                to='/томепиш'>Том ёпиш
                             </NavLink>
                         </div>
                     }
